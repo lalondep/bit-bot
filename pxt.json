@@ -1,0 +1,28 @@
+{
+    "name": "Bit Bot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.1",
+        "pxt-TPBot": "github:elecfreaks/pxt-tpbot#v1.2.3",
+        "pxt-PlanetX": "github:elecfreaks/pxt-planetx#v1.4.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
